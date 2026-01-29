@@ -1,16 +1,102 @@
-# React + Vite
+# Veloura Store – React Product Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+Veloura Store is a responsive product catalog web application built using **React** and **Vite**.  
+The application fetches real-time product data from the **Fake Store API** and displays it in a clean, modern UI with full responsiveness across desktop, tablet, and mobile devices.
 
-Currently, two official plugins are available:
+This project was developed as part of a **Frontend Developer Assessment** to demonstrate proficiency in component-based development, routing, API integration, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+- Product listing page with grid layout
+- Product detail page with complete product information
+- Responsive design (Desktop / Tablet / Mobile)
+- Category-based filtering
+- Search functionality
+- Loading indicators during API calls
+- Graceful handling of API errors
+- Clean and branded UI design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧭 Pages
+- **Product List Page** – Displays all products with image, title, price, and category
+- **Product Detail Page** – Displays detailed product information with navigation back to the product list
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech StacK
+- React
+- React Router
+- Vite
+- CSS
+- Fake Store API
+
+---
+
+## 🚀 Live Demo
+🔗 **https://veloura-store-henna.vercel.app**
+
+---
+
+## 🎥 Demo Video
+A short screen recording demonstrating:
+- Responsive layout (desktop, tablet, mobile)
+- Navigation from product list to product detail page
+- Responsive behavior on both pages
+
+*(Provided separately as part of the assessment submission)*
+
+---
+
+## ⚙️ How to Run Locally
+
+### 1️⃣ Clone the repository
+git clone https://github.com/Fiyoni/Veloura-Store.git
+
+2️⃣ Navigate to the project directory
+cd Veloura-Store
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Start the development server
+npm run dev
+
+The application will run at: http://localhost:5173
+
+
+## 📱 Responsive Design
+The layout adapts based on screen size:
+
+- **Desktop:** 4 products per row  
+- **Tablet:** 2 products per row  
+- **Mobile:** 1 product per row  
+
+---
+
+## 📦 API Used
+- **Fake Store API**  
+  https://fakestoreapi.com/products
+
+---
+
+## 👩‍💻 Author
+**Fiyoni Kothari**  
+Frontend Developer | React Enthusiast
+
+---
+
+## ✅ Assessment Checklist
+- React implementation 
+- Routing with React Router   
+- API integration 
+- Loading states   
+- Responsive design  
+- Live deployment   
+- GitHub repository   
+
+---
+
+**Thank you for reviewing this project.**
